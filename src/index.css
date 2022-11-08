@@ -11,7 +11,7 @@ code {
 }
 
 .postCard {
-  max-width: 400px;
+  max-width: 500px;
   margin: 20px;
   background-color: #1c1c1c;
   color: white;
@@ -49,19 +49,12 @@ code {
 .posts-followers-container {
   display: flex;
   flex-direction: row;
-  justify-content:end;
+  justify-content:center;
 
-}
-
-.followersFollowing {
-  display: flex;
-  width: 20%;
-  justify-content: end;
-  height: 100vh;
 }
 
 .followersCard {
-  width: 100%;
+  width: 350px;
   background-color: #1c1c1c;
   margin: 20px
 

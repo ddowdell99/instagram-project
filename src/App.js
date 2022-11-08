@@ -9,12 +9,8 @@ export default class App extends Component {
       <div>
         <Nav />
         <div className='posts-followers-container'>
-          <div className='posts'>
             <Post />
-          </div>
-          <div className='followersFollowing'>
             <FollowingFollowersSide />
-          </div>
         </div>
       </div>
 
