@@ -11,8 +11,9 @@ code {
 }
 
 .postCard {
-  max-width: 500px;
+  width: 500px;
   margin: 20px;
+  height: 550px;
   background-color: #1c1c1c;
   color: white;
 
@@ -84,6 +85,7 @@ span.profile-name {
 
 .card-body {
   padding: 8px 16px;
+  max-width: 525px;
 }
 
 .main-post {
@@ -118,6 +120,110 @@ span.profile-name {
 
 .searchButton:hover {
   background-color:#121829;
+  border-color: rgb(143, 142, 142);
+  color: white;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
+
+.card-signup {
+  margin-top: 8rem;
+  border-radius: 12px;
+  max-width: 550px ;
+  background-color: black;
+  color: white;
+  border: 1px solid lightgray ;
+
+}
+
+.sign-up-button {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  text-decoration: none;
+}
+
+#middle-bar {
+  display: flex;
+  justify-content: center;
+  flex-basis: 0;
+}
+
+.left-bar {
+  flex-grow: 0.5;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.signup-title {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.card-body h3 {
+  text-align: center;
+}
+
+.card-body input {
+  background-color:#313543 ;
+  border-color: black;
+  color: white;
+}
+
+.sign-up-button button {
+  background-color:#202945;
+  border-color: rgb(143, 142, 142);
+  color: white;
+}
+
+.create-account {
+  display: flex;
+  justify-content: center;
+}
+
+.create-account button {
+  background-color:#202945;
+  border-color: rgb(143, 142, 142);
+  color: white;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+}
+
+.showPosts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alreadyAccount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgray;
+  width: 525px;
+  border-radius: 12px;
+  color: white;
+  padding: 10px;
+}
+
+
+.alreadyAccountContainer {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+
+}
+
+.alreadyAccount button {
+  background-color:#202945;
   border-color: rgb(143, 142, 142);
   color: white;
 }
